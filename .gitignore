@@ -26,11 +26,15 @@ share/python-wheels/
 *.egg
 .pytest_cache/
 
-# Database & Uploads
+# Databases & Uploads
 data/*.db
 data/ipoready.db
+backend/data/*.db
+backend/data/ipoready.db
 data/uploads/*
+backend/data/uploads/*
 !data/uploads/.gitkeep
+!backend/data/uploads/.gitkeep
 
 # Next.js / Node
 node_modules/
